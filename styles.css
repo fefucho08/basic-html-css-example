@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding: 20px;
+}
+
+header {
+    background-color: gainsboro;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#pageTitle {
+    background-color: #a0a0a0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+nav {
+    display: inline-block;
+    padding: 10px;
+    font-size: small;
+}
+
+main {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+main section {
+    display: inline-block;
+    padding: 20px;
+    background-color: gray;
+    vertical-align: top;
+    height: 400px;
+}
+
+main section:first-child {
+    width: 65%;
+    margin-right: 10px;
+}
+
+main section:first-child h2 {
+    margin: 20px;
+}
+
+main section:first-child p {
+    text-align: justify;
+}
+
+main section:last-child {
+    width: 30%;
+    margin-left: 10px;
+}
+
+.borderedContainer {
+    border: 5px solid gainsboro;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+img {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+#projectsDates {
+    text-align: left;
+    margin-top: 20px;
+    height: 280px;
+}
+
+#projectsDates ul {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #a0a0a0;
+    text-align: center;
+    height: 80px;
+    margin-top: 20px;
+    font-size: small;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
